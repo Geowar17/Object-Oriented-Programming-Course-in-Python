@@ -34,5 +34,10 @@ class EmpleadoArtista(Persona, Artista):
 roberto = EmpleadoArtista("Ronerto",49,"venezuela","cantar","google",1000000)
 
 
-print(roberto.edad)
-roberto.presentarse()
+#print(roberto.edad)
+#roberto.presentarse()
+
+herencia = issubclass(EmpleadoArtista,Persona)
+instancia = isinstance(roberto,Persona)
+
+print(instancia)
